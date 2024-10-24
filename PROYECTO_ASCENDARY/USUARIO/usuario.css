@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+
+    background-color: rgb(138, 190, 236);;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+main {
+    margin-left: 85px;
+    margin-top: 1px;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal{
+    margin-top: 1px;
+}
+
+.principal h4 {
+    border: 2px dotted rgb(54, 167, 196);
+    border-radius: 5px;
+    margin: 10px 50px;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -600px;
+    margin-left: -80px;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.FotoUsuario{
+    border-radius: 50%;
+    height: 150px;
+    width: 10px solid rgb(14, 13, 13);
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.Relleno{
+    opacity: 90%;
+    height: 800px;
+    width: 1010px;
+    margin-top: -199px;
+    margin-left: 800px ;
+}
+ 
+form button {
+      animation: pulse 2s infinite;
+}
+  
+.menu .lista{
+  display: inline-block;
+}
+  
+.lista-r{
+    float:right;
+}
+  
+.lista a:hover{
+    background-color: rgb(92, 152, 236);
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(13, 12, 12);
+    display:inline-block;
+    padding: 10px 10px ;
+    margin-left: 10px;
+}
+
+footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
