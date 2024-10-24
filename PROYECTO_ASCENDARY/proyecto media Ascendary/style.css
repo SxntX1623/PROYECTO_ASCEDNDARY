@@ -1,0 +1,317 @@
+.Portada {
+  height: 700px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+}
+
+#Fondo-Portada {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+#Logo {
+  height: 100px;
+  width: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+
+.mierda {
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+}
+
+#Frase-Presentacion {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#Btn-Ready {
+  height: auto;
+  width: 300px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #FFF;
+  line-height: 26px;
+  border-radius: 28px;
+  border-color: #b00000;
+  cursor: pointer;
+  transition: width 0.2s;
+}
+
+#Btn-Ready:hover {
+  width: 320px;
+  background-color: #b00000;
+}
+
+#Aprende-Mas {
+  color: #FFF;
+  font-size: 18px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0px;
+}
+
+.icon-keyboard_arrow_down {
+  color: #FFF;
+  font-size: 28px;
+  opacity: 0.6;
+}
+
+
+main {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(138, 190, 236);
+  width: 100%;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.lista a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 15px 50px;
+}
+
+.menu .lista {
+  display: inline-block;
+}
+
+.lista-r {
+  float: right;
+}
+
+.lista a:hover {
+background-image: url(https://images.unsplash.com/photo-1560406146-78f8cb5e0fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+h1 {
+  color: black text-shadow:1px 2px 2px black, 0 0 25px white, 0 0 5px white;
+  text-align:center
+};
+div.galeria {
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 550px
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+div.galeria:hover {
+  border: 1px solid black;
+  transform: scale(110%);
+  border-radius: 20px;
+}
+
+div.pie {
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  padding: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+}
+
+.card .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+
+.card .contenido-card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+
+.card .contenido-card a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) 
+.container-card {
+  display:flex;          
+  flex-wrap:wrap;       
+
+}
+
+
+  .card {
+    margin: 2px; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #3091c9;
+    }
+    
+    h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 0;
+      color: #eacee3;
+    }
+    
+    h2 {
+      font-size: 4rem;
+      color: #eacee3;
+      margin-bottom: 35px;
+    }
+    
+    h3 {
+      font-size: 2.5rem;
+      color: #321c3b;  
+    }
+    
+    p {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.4rem;  
+      color: #fff;
+    }
+    
+    .container {
+      padding: 20px;
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    
+    button {
+      cursor: pointer;
+      border-radius: 0;
+      border: none;
+      background-color: #eacee3;
+      color: #321c3b;
+      padding: 20px 35px;
+      margin: 30px 0 20px 0;
+      font-size: 1.2rem;
+      text-transform: uppercase;  
+      font-weight: 700;  
+      transition: box-shadow 0.25s ease-in-out;
+      box-shadow: 0px 0px 0 #fff;
+    }
+    
+    button:hover {
+      box-shadow: 8px 8px 0 #fff;
+    }
+    
+    dialog {
+      max-width: 650px;
+      padding: 40px 70px;
+      border: 8px solid #603a6e;
+      background-color: #FAFAFA;
+    }
+    
+    dialog::backdrop {
+      background: rgba(234, 206, 227, 0.9);
+    }
+    
+    dialog p {
+      color: #000000;
+    }
+    
+    dialog button {
+      box-shadow: 0px 0px 0 #321c3b;
+    }
+    
+    dialog button:hover {
+      box-shadow: 8px 8px 0 #321c3b;
+    }
+    
+
+    
